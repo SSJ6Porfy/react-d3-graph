@@ -23949,6 +23949,7 @@ var CompanyProfile = function (_React$Component) {
         value: function handleSubmit(e) {
             var _this3 = this;
 
+            // requesting new company data from API
             e.preventDefault();
             fetch("API Call Here").then(function (res) {
                 return res.json();

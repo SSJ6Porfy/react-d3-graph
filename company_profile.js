@@ -57,6 +57,7 @@ class CompanyProfile extends React.Component {
     }
 
     handleSubmit(e) {
+        // requesting new company data from API
         e.preventDefault();
         fetch("API Call Here")
         .then(res => res.json()
