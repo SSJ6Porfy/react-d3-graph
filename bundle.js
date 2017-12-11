@@ -23916,6 +23916,7 @@ var CompanyProfile = function (_React$Component) {
     function CompanyProfile() {
         _classCallCheck(this, CompanyProfile);
 
+        // made own state data
         var _this = _possibleConstructorReturn(this, (CompanyProfile.__proto__ || Object.getPrototypeOf(CompanyProfile)).call(this));
 
         _this.state = { current_company: "Company C",
