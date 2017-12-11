@@ -4,7 +4,7 @@ import { Graph, Node } from 'react-d3-graph';
 class CompanyProfile extends React.Component {
     constructor() {
         super();
-        this.state = { current_company: "Company C",
+        this.state = { current_company: "Company A",
                        degree: 1,
                        country_filter: 'Any',
                        last_shipment_filter: '36',
@@ -12,9 +12,9 @@ class CompanyProfile extends React.Component {
                        company_name: '',
                        data: {
                         nodes: [
-                          { id: 'Company A' },
+                          { id: 'Company A', color: 'red', symbolType: 'diamond' },
                           { id: 'Company B' },
-                          { id: 'Company C', color: 'red', symbolType: 'diamond' },
+                          { id: 'Company C' },
                           { id: 'Company D' },
                           { id: 'Company E' },
                           { id: 'Company F' },
