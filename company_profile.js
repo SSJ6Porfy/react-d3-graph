@@ -4,6 +4,7 @@ import { Graph, Node } from 'react-d3-graph';
 class CompanyProfile extends React.Component {
     constructor() {
         super();
+        // made own state data
         this.state = { current_company: "Company C",
                        degree: 1,
                        country_filter: 'Any',
