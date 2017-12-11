@@ -23918,14 +23918,14 @@ var CompanyProfile = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (CompanyProfile.__proto__ || Object.getPrototypeOf(CompanyProfile)).call(this));
 
-        _this.state = { current_company: "Company A",
+        _this.state = { current_company: "Company C",
             degree: 1,
             country_filter: 'Any',
             last_shipment_filter: '36',
             expertise_filter: '',
             company_name: '',
             data: {
-                nodes: [{ id: 'Company A', color: 'red', symbolType: 'diamond' }, { id: 'Company B' }, { id: 'Company C' }, { id: 'Company D' }, { id: 'Company E' }, { id: 'Company F' }, { id: 'Company G' }, { id: 'Company H' }, { id: 'Company I' }, { id: 'Company J' }, { id: 'Company K' }, { id: 'Company L' }],
+                nodes: [{ id: 'Company A' }, { id: 'Company B' }, { id: 'Company C', symbolType: 'diamond' }, { id: 'Company D' }, { id: 'Company E' }, { id: 'Company F' }, { id: 'Company G' }, { id: 'Company H' }, { id: 'Company I' }, { id: 'Company J' }, { id: 'Company K' }, { id: 'Company L' }],
                 links: [{ source: 'Company A', target: 'Company B', degree: 2 }, { source: 'Company B', target: 'Company C', degree: 2 }, { source: 'Company C', target: 'Company D', degree: 1, stroke: 'red' }, { source: 'Company C', target: 'Company E', degree: 1 }, { source: 'Company C', target: 'Company F', degree: 1 }, { source: 'Company D', target: 'Company E', degree: 2 }, { source: 'Company F', target: 'Company H', degree: 2 }, { source: 'Company G', target: 'Company I' }, { source: 'Company F', target: 'Company D' }, { source: 'Company B', target: 'Company J', degree: 2 }, { source: 'Company J', target: 'Company H' }, { source: 'Company L', target: 'Company A', degree: 3 }, { source: 'Company K', target: 'Company C', degree: 1 }, { source: 'Company I', target: 'Company F', degree: 3 }, { source: 'Company I', target: 'Company D', degree: 3 }, { source: 'Company I', target: 'Company E', degree: 3 }]
             }
         };
