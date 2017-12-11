@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 113);
@@ -23950,7 +23950,7 @@ var CompanyProfile = function (_React$Component) {
             var _this3 = this;
 
             e.preventDefault();
-            fetch('http://yellow.panjiva.com:8990/profile/listviz?degree=' + this.state.degree + '&country_filter=' + this.state.country_filter + '&last_shipment_date=' + this.state.last_shipment_filter + '&expertise_filter=' + this.state.expertise_filter + '&permanent_id=' + this.state.current_company).then(function (res) {
+            fetch("API Call Here").then(function (res) {
                 return res.json();
             }).then(function (r) {
                 return _this3.setState({ companies: r.companies, connections: r.connections });
