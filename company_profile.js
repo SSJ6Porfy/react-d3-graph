@@ -12,9 +12,9 @@ class CompanyProfile extends React.Component {
                        company_name: '',
                        data: {
                         nodes: [
-                          { id: 'Company A' },
+                          { id: 'Company A', color: 'red', symbolType: 'diamond' },
                           { id: 'Company B' },
-                          { id: 'Company C', color: 'red', symbolType: 'diamond' },
+                          { id: 'Company C' },
                           { id: 'Company D' },
                           { id: 'Company E' },
                           { id: 'Company F' },
