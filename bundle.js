@@ -23918,7 +23918,7 @@ var CompanyProfile = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (CompanyProfile.__proto__ || Object.getPrototypeOf(CompanyProfile)).call(this));
 
-        _this.state = { current_company: "Company A",
+        _this.state = { current_company: "Company C",
             degree: 1,
             country_filter: 'Any',
             last_shipment_filter: '36',
